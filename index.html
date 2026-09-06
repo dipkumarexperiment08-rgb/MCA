@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Information Portal — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-stub" aria-hidden="true"></span>
+      <span class="brand-name">Movie Information Portal</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="movies.html">Catalogue</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="watchlist.html">Watchlist</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="marquee">
+        <p class="marquee-eyebrow">Now booking screenings</p>
+        <h1 class="marquee-title">Movie Information<br>Portal</h1>
+        <p class="marquee-copy">A local catalogue of films worth remembering — browse ratings, casts and synopses, all held in one static reel with nothing to download or sign in for.</p>
+      </div>
+      <dl class="stat-strip">
+        <div class="stat">
+          <dt>Films catalogued</dt>
+          <dd>8</dd>
+        </div>
+        <div class="stat">
+          <dt>Average rating</dt>
+          <dd>8.6</dd>
+        </div>
+        <div class="stat">
+          <dt>Genres on the reel</dt>
+          <dd>7</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="catalogue" aria-labelledby="now-showing">
+    <div class="catalogue-inner">
+      <div class="section-heading">
+        <h2 id="now-showing">Now Showing</h2>
+        <p>A first look at the catalogue — open any stub for the full record.</p>
+      </div>
+
+      <ul class="movie-grid">
+
+        <li class="ticket" style="--poster-a:#3a2b52; --poster-b:#7a4b6b;">
+          <a class="ticket-link" href="movie-details.html#inception" aria-label="View details for Inception">
+            <div class="poster">
+              <span class="poster-title">Inception</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.8 out of 10">8.8</span>
+              <h3 class="movie-title">Inception</h3>
+              <p class="movie-meta">Science Fiction · 2010 · 148 min</p>
+              <p class="movie-director">Dir. Christopher Nolan</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#241f2e; --poster-b:#4a3f57;">
+          <a class="ticket-link" href="movie-details.html#dark-knight" aria-label="View details for The Dark Knight">
+            <div class="poster">
+              <span class="poster-title">The Dark<br>Knight</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 9.0 out of 10">9.0</span>
+              <h3 class="movie-title">The Dark Knight</h3>
+              <p class="movie-meta">Action · 2008 · 152 min</p>
+              <p class="movie-director">Dir. Christopher Nolan</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#33201d; --poster-b:#6b3d32;">
+          <a class="ticket-link" href="movie-details.html#parasite" aria-label="View details for Parasite">
+            <div class="poster">
+              <span class="poster-title">Parasite</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.6 out of 10">8.6</span>
+              <h3 class="movie-title">Parasite</h3>
+              <p class="movie-meta">Thriller · 2019 · 132 min</p>
+              <p class="movie-director">Dir. Bong Joon-ho</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#1c3330; --poster-b:#3f6b5f;">
+          <a class="ticket-link" href="movie-details.html#spirited-away" aria-label="View details for Spirited Away">
+            <div class="poster">
+              <span class="poster-title">Spirited<br>Away</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.6 out of 10">8.6</span>
+              <h3 class="movie-title">Spirited Away</h3>
+              <p class="movie-meta">Animation · 2001 · 125 min</p>
+              <p class="movie-director">Dir. Hayao Miyazaki</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#332a1c; --poster-b:#6b5a3f;">
+          <a class="ticket-link" href="movie-details.html#grand-budapest" aria-label="View details for The Grand Budapest Hotel">
+            <div class="poster">
+              <span class="poster-title">Grand<br>Budapest<br>Hotel</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.1 out of 10">8.1</span>
+              <h3 class="movie-title">The Grand Budapest Hotel</h3>
+              <p class="movie-meta">Comedy · 2014 · 99 min</p>
+              <p class="movie-director">Dir. Wes Anderson</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#1c2333; --poster-b:#3f4d6b;">
+          <a class="ticket-link" href="movie-details.html#interstellar" aria-label="View details for Interstellar">
+            <div class="poster">
+              <span class="poster-title">Interstellar</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.7 out of 10">8.7</span>
+              <h3 class="movie-title">Interstellar</h3>
+              <p class="movie-meta">Science Fiction · 2014 · 169 min</p>
+              <p class="movie-director">Dir. Christopher Nolan</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#331c1c; --poster-b:#6b3f3f;">
+          <a class="ticket-link" href="movie-details.html#pulp-fiction" aria-label="View details for Pulp Fiction">
+            <div class="poster">
+              <span class="poster-title">Pulp<br>Fiction</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.9 out of 10">8.9</span>
+              <h3 class="movie-title">Pulp Fiction</h3>
+              <p class="movie-meta">Crime · 1994 · 154 min</p>
+              <p class="movie-director">Dir. Quentin Tarantino</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+        <li class="ticket" style="--poster-a:#2b2333; --poster-b:#5c4b6b;">
+          <a class="ticket-link" href="movie-details.html#la-la-land" aria-label="View details for La La Land">
+            <div class="poster">
+              <span class="poster-title">La La<br>Land</span>
+            </div>
+            <div class="perforation" aria-hidden="true"></div>
+            <div class="stub">
+              <span class="rating" aria-label="Rating 8.0 out of 10">8.0</span>
+              <h3 class="movie-title">La La Land</h3>
+              <p class="movie-meta">Musical Drama · 2016 · 128 min</p>
+              <p class="movie-director">Dir. Damien Chazelle</p>
+              <span class="view-link">View details</span>
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Movie Information Portal — a self-contained catalogue, built with HTML5 &amp; CSS3.</p>
+</footer>
+
+</body>
+</html>
