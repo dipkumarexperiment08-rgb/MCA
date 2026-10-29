@@ -1,0 +1,15 @@
+import java.util.Scanner; 
+
+public class Main { 
+    public static void main(String[] args) { 
+        Scanner sc = new Scanner(System.in); 
+        
+        System.out.println("Please enter a meter :"); 
+        double meter = sc.nextDouble(); 
+        
+        double feet = meter * 3.28084; 
+        System.out.println("Answer is: " + feet); 
+        
+        sc.close(); 
+    } 
+}
